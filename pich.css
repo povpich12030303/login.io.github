@@ -1,0 +1,59 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background: url(./img/bgshoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 99vh;
+}
+h1{
+  margin-left: 2rem;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 2rem;
+  color: red;
+}
+a:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-out 0.50s;
+  background-color: lightskyblue;
+  border-radius: 2rem;
+
+}
+.text{
+  color:white;
+  margin-top: 15%;
+  margin-left: 8%;
+  font-size: 15px;
+  font-family: serif;
+
+}
+ #hom{
+  margin-left: 30%;
+
+ }
+ a{
+  margin-left: 3rem;
+ }
+ #nabo{
+  font-size: 30px;
+  font-weight:900;
+  color:red;
+ }
+ #but{
+  margin-left:8%;
+ }
+ .card{
+  margin-left: 3rem;
+  margin-top: 40%;
+ }
+
+  
+
+
+
+

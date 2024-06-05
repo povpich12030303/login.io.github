@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("./img/bg1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 400px;
+  height: 80vh;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+p {
+  color: #ffff;
+}
+.container h2 {
+  text-align: center;
+  color: #d90429;
+}
+p {
+  font-size: 14px;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.check {
+  display: flex;
+}
+.input-group label {
+  margin-top: 10px;
+  display: block;
+  color: #d90429;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+input :hover {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #d90429;
+  border-radius: 3px;
+  color: red;
+}
+span {
+  color: blue;
+}
+.btn2 {
+  width: 100%;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffff;
+  color: black;
+  cursor: pointer;
+}
+.check span {
+  color: blue;
+}
+.btn {
+  width: 100%;
+  font-weight: 999;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3a0ca3;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.container img {
+  display: flex;
+}

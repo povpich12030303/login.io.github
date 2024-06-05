@@ -1,0 +1,15 @@
+.a {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.b {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+#c {
+  display: flex;
+
+  justify-content: space-between;
+}

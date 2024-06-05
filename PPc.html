@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      main {
+        text-align: center;
+      }
+      button {
+        position: absolute;
+        width: 120px;
+        padding: 0.5rem 2rem;
+        font-size: 30px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 10px pink;
+      }
+      button:nth-child(1) {
+        border: 1px solid rgb(255, 73, 182);
+        left: 100px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 73, 182);
+      }
+      button:nth-child(2) {
+        right: 100px;
+        background-color: rgb(255, 73, 182);
+        color: white;
+        transition: all 0.3s ease-out;
+      }
+    </style>
+    <main>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <button class="yes">Me</button>
+      <button class="no">join Me</button>
+    </main>
+
+    <script>
+      const Button = document.querySelector(".yes");
+      const yesButton = document.querySelector(".no");
+      const text = document.querySelector("h2");
+
+      yesButton.addEventListener("mouseover", function () {
+        function getRandomNumber() {
+          return Math.floor(Math.random() * 300);
+        }
+
+        yesButton.style.left = getRandomNumber() + "px";
+        yesButton.style.top = getRandomNumber() + "px";
+      });
+
+      Button.onclick = () => (text.innerText = "Ni hoa");
+    </script>
+  </body>
+</html>
